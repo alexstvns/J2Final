@@ -46,6 +46,9 @@ public class Player
         return this.pAvg;
     }
     
+    
+    
+    // had a to string method in case I needed to print both name and data
     public String Stringer()
     {
         String s = (this.pName+" "+this.pAvg);

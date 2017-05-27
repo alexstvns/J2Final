@@ -311,6 +311,8 @@ public class FinalJava2 extends Application
           Stack hStack = Averages.highStack;
           Stack lStack = Averages.lowStack;
           
+          
+          // set the text on the average highs text field
           avgHigh.setText("Highest Batting Average: "+Averages.getHigh()+"\n");
           avgHigh.appendText("===================="+"\n");
           avgHigh.appendText("Highest Average Players: "+"\n");
@@ -322,10 +324,13 @@ public class FinalJava2 extends Application
              avgHigh.appendText(hStack.print(i)+"\n");
               
           }
+          
+          // set the text on the average lows text field
           avgLow.setText("Lowest Batting Average: "+ Averages.getLow()+"\n");
           avgLow.appendText("===================="+"\n");
           avgLow.appendText("Lowest Average Players: "+"\n");
           avgLow.appendText("===================="+"\n");
+          
            for(int j=0;j<lowCount;j++)
           {
               

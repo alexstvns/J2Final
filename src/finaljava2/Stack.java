@@ -77,6 +77,9 @@ public class Stack<T>
         
     }
     
+    
+    //used this method to the stack to the console for tracing the movement of the data
+    
     public void tester()
     {
         for(int i=0;i<al.size();i++)
